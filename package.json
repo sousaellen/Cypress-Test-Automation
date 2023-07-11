@@ -1,0 +1,19 @@
+{
+  "name": "cypress-test-automation",
+  "version": "1.0.0",
+  "description": "Test automation project with Cypress.",
+  "main": "index.js",
+  "scripts": {
+    "scripts": "cypress run",
+    "test" : "npm run scripts || npm run posttest"
+  },
+      "author": "Raíssa Sousa",
+      "license": "ISC",
+      "devDependencies": {
+        "cypress": "^12.13.0",
+        "cypress-multi-reporters": "^1.6.3",
+        "mochawesome": "^7.1.3",
+        "mochawesome-merge": "^4.3.0",
+        "mochawesome-report-generator": "^6.2.0"
+  }
+}
