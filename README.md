@@ -1,6 +1,17 @@
 # Cypress-Test-Automation
 Test automation project with Cypress.
-//"test": "npx cypress run --env allure=true,allureResultsPath=cypress/reports/allure-result",
-npm test --reporter mochawesome --reporter-options autoOpen=true
 
-npx cypress run --spec "cypress\e2e\UC01.cy.js" --browser chrome --reporter mochawesome 
+## ⚙️ Installation
+```
+ npm install cypress --save-dev
+```
+
+## ▶️ Execution
+```
+npx cypress run --spec "cypress\e2e\" --browser chrome 
+```
+or, open the interface and select the file to run:
+```
+ npx cypress open
+```
+
